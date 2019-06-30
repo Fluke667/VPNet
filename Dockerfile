@@ -13,10 +13,10 @@ RUN apk upgrade \
         linux-headers \
         build-base autoconf automake \
         curl curl-dev \
-	      nano \
-	      go \
-	      musl-dev \
-	      gcc \
+	nano \
+	go \
+	musl-dev \
+	gcc \
         c-ares-dev \
         libev-dev \
         libtool \
@@ -25,11 +25,11 @@ RUN apk upgrade \
         pcre-dev \
         tar \
         git \
-	      nodejs npm \
+	nodejs npm \
         ca-certificates \
         iptables ip6tables iptables-dev iproute2 \
-	      pptpd \
-	      xl2tpd \
-	      sqlite sqlite-libs sqlite-dev \
+	pptpd \
+	xl2tpd \
+	sqlite sqlite-libs sqlite-dev \
         openssl openssl-dev \
         strongswan \
